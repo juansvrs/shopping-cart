@@ -1,0 +1,54 @@
+/* GLOBAL STYLES and VARIABLES*/
+:root{
+    --orange-color: #FF6600;
+    --gray-color: #F5F5F5;
+    --green-color: #8FD14F;
+    --purple-color: #604CC3;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0; /* Removes all margin from the body */
+}
+a{
+  text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /* Breakpoints for fixed widths */
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }

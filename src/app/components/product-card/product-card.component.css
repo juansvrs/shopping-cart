@@ -1,0 +1,35 @@
+.product{
+border-radius: 1rem;
+background-color: var(--beige-color);
+padding: 1rem;
+}
+
+.product img{
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    object-fit: cover; /* Ensure the image maintains aspect ratio */
+}
+
+.product button {
+    background-color: var(--green-color); /* A vibrant tomato color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Padding to make the button larger */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+  }
+  
+  .product button:hover {
+    background-color: var(--purple-color); /* Darken the color slightly on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .product button:active {
+    background-color: #cc4a33; /* Even darker when clicked */
+    transform: scale(0.98); /* Slightly shrink when clicked */
+  }

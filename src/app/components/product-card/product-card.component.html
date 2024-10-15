@@ -1,0 +1,9 @@
+<!-- product-card.component.html -->
+<div class="container product">
+    <img [src]="product.images[0]" alt="product photo" />
+    <p>{{ product.title }}</p>
+    <p>{{ product.description }}</p>
+    <p>Price: ${{ product.price }}</p>
+    <button (click)="buyProduct()">Add</button>
+  </div>
+  

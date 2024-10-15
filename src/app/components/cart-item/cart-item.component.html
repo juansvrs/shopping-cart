@@ -1,0 +1,10 @@
+<div class="cart-item">
+    <p>{{ item.title }} - ${{ item.price }}</p>
+    <input 
+      type="number" 
+      [(ngModel)]="item.quantity" 
+      (input)="updateQuantity($event)" 
+      min="1">
+  </div>
+  
+  
